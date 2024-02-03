@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-image: url(gardien.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: 100%;
+    background-image: url(warna\ shi.jpg);
+}
+
+.product {
+    button{
+        background-color: bisque;
+        border-radius: 10%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    border: 2px solid #000000;
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-image: url(wadidaw.jpg);
+    background-size: 100%;
+    font-family: 'Times New Roman', Times, serif
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-image: url(viivid.jpg);
+    background-size: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+@media screen and (max-width: 476px) {
+    header {
+        background-size: 110%;
+    }
+
+    body {
+        background-size: 250%;
+        margin:auto
+    }
+
+    .product {
+        range: calc(50);
+        margin: 100px
+    }
+
+    footer {
+        background-size: 100%;
+    }
+}
+
